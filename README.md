@@ -1,1 +1,1 @@
-[My page](https://ansachuk.github.io/mate/ansachuk.github.io/mate/)
+[My page](https://ansachuk.github.io/mate/)
