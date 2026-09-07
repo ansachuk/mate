@@ -22,13 +22,10 @@ public class UserService {
      email = testEmail@gmail.com;
 
      // 100;
-
-
      * records = {"testEmail@gmail.com:100"};
      * email = invalidEmail@gmail.com;
      *
      * // UserNotFoundException: User with given email doesn't exist
-
      * records = {"alice@mail.us:0"};
      * email = alice@mail.us:0_+;
      *
@@ -38,14 +35,14 @@ public class UserService {
     public int getUserScore(String[] records, String email) {
         String userScore = null;
 
-        for (String el : records){
+        for (String el : records) {
             String[] fields = el.split(":");
-            if (fields[0].equals(email)){
+            if (fields[0].equals(email)) {
                 userScore = fields[1];
             }
         }
 
-        if(userScore != null){
+        if (userScore != null) {
             return Integer.parseInt(userScore);
         } else {
             throw new UserNotFoundException("User with given email doesn't exist");

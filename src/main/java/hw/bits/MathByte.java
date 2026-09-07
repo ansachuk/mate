@@ -1,7 +1,7 @@
 package hw.bits;
 
 public class MathByte {
-    static public String toBinaryString(int value) {
+    public static String toBinaryString(int value) {
         StringBuilder res = new StringBuilder();
         do {
             res.append(value % 2);
@@ -11,7 +11,7 @@ public class MathByte {
         return res.reverse().toString();
     }
 
-    public static int fromBinaryString(String value){
+    public static int fromBinaryString(String value) {
         if (value == null) {
             return 0;
         }
