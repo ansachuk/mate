@@ -1,4 +1,4 @@
-package hw.exceptions;
+package core.hw.exceptions;
 
 public class UserNotFoundException extends RuntimeException {
 

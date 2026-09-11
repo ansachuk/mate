@@ -1,4 +1,4 @@
-package hw.oop;
+package core.hw.oop;
 
 public class MatrixDiagonal {
     /**

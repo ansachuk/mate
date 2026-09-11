@@ -1,4 +1,4 @@
-package hw.oop;
+package core.hw.oop;
 
 import java.util.Arrays;
 

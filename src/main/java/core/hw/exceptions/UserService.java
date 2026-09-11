@@ -1,4 +1,4 @@
-package hw.exceptions;
+package core.hw.exceptions;
 
 public class UserService {
     /**У цьому завданні в тебе є клас UserService з методом getUserScore(). Цей метод приймає

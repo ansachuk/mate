@@ -1,4 +1,4 @@
-import hw.io.WorkWithBytes;
+import core.hw.io.WorkWithBytes;
 
 public class Main {
     public static void main(String[] args) {

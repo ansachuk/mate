@@ -1,4 +1,4 @@
-package hw.io;
+package core.hw.io;
 
 import java.io.File;
 import java.io.IOException;

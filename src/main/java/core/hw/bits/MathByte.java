@@ -1,4 +1,4 @@
-package hw.bits;
+package core.hw.bits;
 
 public class MathByte {
     public static String toBinaryString(int value) {
