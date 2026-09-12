@@ -1,7 +1,7 @@
 package core.hw.patterns;
 
 public class SongOrder {
-    private String singer;
+    private final String singer;
     private String songName;
 
     private SongOrder(String singer) {
@@ -13,16 +13,16 @@ public class SongOrder {
         this.songName = songName;
     }
 
-    public SongOrder of(String singer){
+    public SongOrder of(String singer) {
         return new SongOrder(singer);
     }
 
-    public SongOrder of(String singer,String songName){
+    public SongOrder of(String singer, String songName) {
         return new SongOrder(singer, songName);
     }
 
-    public String toString(){
-        if (singer != null && songName != null){
+    public String toString() {
+        if (singer != null && songName != null) {
             return "Play "
                     + singer
                     + " song called "
@@ -31,9 +31,9 @@ public class SongOrder {
                     + "\"\n";
         }
 
-        if (singer != null){
-            return "Play any " +
-                    singer
+        if (singer != null) {
+            return "Play any "
+                    + singer
                     + "\n";
         }
 

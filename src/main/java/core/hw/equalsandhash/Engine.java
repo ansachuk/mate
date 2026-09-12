@@ -1,15 +1,19 @@
 package core.hw.equalsandhash;
 
 public class Engine implements Cloneable {
-    public String engineName;
-    public String engineType;
-    public String engineVolume;
-    public int engineQuantity;
-    public boolean engineExist;
+    private String engineName;
+    private String engineType;
+    private String engineVolume;
+    private int engineQuantity;
+    private boolean engineExist;
 
-    public Engine() {}
+    private Engine() {
 
-    public Engine(String engineName, String engineType, String engineVolume, int engineQuantity, boolean engineExist) {
+    }
+
+    public Engine(String engineName, String engineType,
+                  String engineVolume, int engineQuantity,
+                  boolean engineExist) {
         this.engineName = engineName;
         this.engineType = engineType;
         this.engineVolume = engineVolume;

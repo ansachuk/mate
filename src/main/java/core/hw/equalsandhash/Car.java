@@ -9,9 +9,12 @@ public class Car implements Cloneable {
 
     private Engine engine;
 
-    public Car() {}
+    public Car() {
 
-    public Car(String carName, String carType, String carVolume, int carQuantity, boolean carExist) {
+    }
+
+    public Car(String carName, String carType, String carVolume,
+               int carQuantity, boolean carExist) {
         this.carName = carName;
         this.carType = carType;
         this.carVolume = carVolume;

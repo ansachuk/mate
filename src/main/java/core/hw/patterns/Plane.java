@@ -1,11 +1,11 @@
 package core.hw.patterns;
 
 public class Plane {
-    String name;
-    int engines;
-    int seats;
-    String color;
-    boolean isAvailable;
+    private final String name;
+    private final int engines;
+    private final int seats;
+    private final String color;
+    private final boolean isAvailable;
 
     private Plane(String name, int engines, int seats, String color, boolean isAvailable) {
         this.engines = engines;
@@ -16,11 +16,11 @@ public class Plane {
     }
 
     static class Builder {
-        String name;
-        int engines;
-        int seats;
-        String color;
-        boolean isAvailable;
+        private String name;
+        private int engines;
+        private int seats;
+        private String color;
+        private boolean isAvailable;
 
         public void setName(String name) {
             this.name = name;
